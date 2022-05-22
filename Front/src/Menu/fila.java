@@ -9,6 +9,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
 import javax.swing.JTable;
 import javax.swing.JButton;
+import javax.swing.table.DefaultTableModel;
 
 public class fila extends JFrame {
 
@@ -48,6 +49,13 @@ public class fila extends JFrame {
 		contentPane.add(lblNewLabel);
 		
 		table = new JTable();
+		table.setModel(new DefaultTableModel(
+			new Object[][] {
+			},
+			new String[] {
+				"Posi\u00E7\u00E3o na Fila", "Nome", "Conta Corrente"
+			}
+		));
 		table.setBounds(21, 36, 284, 168);
 		contentPane.add(table);
 		
