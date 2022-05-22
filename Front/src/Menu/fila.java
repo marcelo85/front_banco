@@ -53,7 +53,7 @@ public class fila extends JFrame {
 			new Object[][] {
 			},
 			new String[] {
-				"Posi\u00E7\u00E3o na Fila", "Nome", "Conta Corrente"
+				"Posi\u00E7\u00E3o na Fila", "Priorit\u00E1rio", "Nome", "Conta Corrente"
 			}
 		));
 		table.setBounds(21, 36, 284, 168);
